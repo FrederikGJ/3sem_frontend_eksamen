@@ -1,336 +1,416 @@
 {
-    "jewelry": [
-    {"id": "1",
-    "name": "Lilac Moonstar choker",
-    "type": "choker",
-    "price": "100",
-    "style": "space",
-    "image": "/images/jewelryImages/lilacMoonstarChoker.jpg"},
-    
-    {"id": "2",
-    "name": "Pink Sakura choker",
-    "type": "choker",
-    "price": "100",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/pinkSakuraChoker.jpg"},
-    
-    {"id": "3",
-    "name": "Navy Blue Star choker",
-    "type": "choker",
-    "price": "100",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/navyBlueStarChoker.jpg"},
-    
-    {"id": "4", 
-    "name": "Barbiecore choker",
-    "type": "choker",
-    "price": "100",
-    "style": "girly",
-    "image": "/images/jewelryImages/barbiecoreChoker.jpg"},
-    
-    {"id": "5",
-    "name": "Pink and Green Froggy choker",
-    "type": "choker",
-    "price": "100",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/pinkAndGreenFroggyChoker.jpg"},
-    
-    {"id": "6", 
-    "name": "Royal Blue and Red choker",
-    "type": "choker",
-    "price": "100",
-    "style": "elegant",
-    "image": "/images/jewelryImages/royalBlueAndRedChoker.jpg"},
-    
-    {"id": "7",
-    "name": "Holographic Space choker",
-    "type": "choker",
-    "price": "100",
-    "style": "space",
-    "image": "/images/jewelryImages/holographicSpaceChoker.jpg"},
-    
-    {"id": "8",
-    "name": "Star Froggy choker",
-    "type": "choker",
-    "price": "100",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/starFroggyChoker.jpg"},
-    
-    {"id": "9",
-    "name": "Blue Butterfly Forest choker",
-    "type": "choker",
-    "price": "100",
-    "style": "cottagecore",
-    "image": "/images/jewelryImages/blueButterflyForestChoker.jpg"},
-    
-    {"id": "10",
-    "name": "Yellow Gem choker",
-    "type": "choker",
-    "price": "100",
-    "style": "elegant",
-    "image": "/images/jewelryImages/yellowGemChoker.jpg"},
-    
-    {"id": "11",
-    "name": "Silver Galaxy choker",
-    "type": "choker",
-    "price": "100",
-    "style": "space",
-    "image": "/images/jewelryImages/silverGalaxyChoker.jpg"},
-    
-    {"id": "12",
-    "name": "Pink Bell-n-Paw choker",
-    "type": "choker",
-    "price": "100",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/pinkBellNPawChoker.jpg"},
-    
-    {"id": "13",
-    "name": "Lightning McQueen choker",
-    "type": "choker",
-    "price": "100",
-    "style": "special",
-    "image": "/images/jewelryImages/lightningMcQueenChoker.jpg"},
-    
-    {"id": "14",
-    "name": "Hello Kitty choker",
-    "type": "choker",
-    "price": "100",
-    "style": "special",
-    "image": "/images/jewelryImages/helloKittyChoker.jpg"},
-    
-    {"id": "15",
-    "name": "Black Moon hoker",
-    "type": "choker",
-    "price": "100",
-    "style": "goth",
-    "image": "/images/jewelryImages/blackMoonChoker.jpg"},
-    
-    {"id": "16",
-    "name": " Sylveon choker",
-    "type": "choker",
-    "price": "100",
-    "style": "special",
-    "image": "/images/jewelryImages/sylveonChoker.jpg"},
-    
-    {"id": "17",
-    "name": "Kaj choker",
-    "type": "choker",
-    "price": "100",
-    "style": "special",
-    "image": "/images/jewelryImages/kajChoker.jpg"},
-    
-    {"id": "18",
-    "name": "Strawberry Cutiepie earrings",
-    "type": "earrings",
-    "price": "50",
-    "style": "cottagecore",
-    "image": "/images/jewelryImages/strawberryCutiepieEarrings.jpg"},
-    
-    {"id": "19",
-    "name": "Peach Blossom headband",
-    "type": "headband",
-    "price": "100",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/peachBlossomHeadband.jpg"},
-    
-    {"id": "20",
-    "name": "Magical Girl earrings",
-    "type": "earrings",
-    "price": "50",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/magicalGirlEarrings.jpg"},
-    
-    {"id": "21",
-    "name": "Milk Choclate Biscuit bunny choker",
-    "type": "choker",
-    "price": "100",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/milkChocolateBiscuitBunnyChoker.jpg"},
-    
-    {"id": "22",
-    "name": "Crow claw earrings",
-    "type": "earrings",
-    "price": "50",
-    "style": "goth",
-    "image": "/images/jewelryImages/crowClawEarrings.jpg"},
-    
-    {"id": "23",
-    "name": "Straw-bunny earrings",
-    "type": "earrings",
-    "price": "50",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/strawBunnyEarrings.jpg"},
-    
-    {"id": "24",
-    "name": "Plushy Friends choker",
-    "type": "choker",
-    "price": "100",
-    "style": "kawaii",
-    "image": "/images/jewelryImages/plushyFriendsChoker.jpg"},
-    
-    {"id": "25",
-    "name": "Bimbo choker",
-    "type": "choker",
-    "price": "100",
-    "style": "girly",
-    "image": "/images/jewelryImages/bimboChoker.jpg"},
-    
-    {"id": "26",
-    "name": "Archive choker",
-    "type": "choker",
-    "price": "100",
-    "style": "cottagecore",
-    "image": "/images/jewelryImages/archiveChoker.jpg"},
-    
-    {"id": "27",
-    "name": "Golden milkyway necklace",
-    "type": "necklace",
-    "price": "120",
-    "style": "elegant",
-    "image": "/images/jewelryImages/goldenMilkywayNecklace.jpg"},
-    
-    {"id": "28",
-    "name": "Tangerine Flower earrings",
-    "type": "earrings",
-    "price": "50",
-    "style": "cottagecore",
-    "image": "/images/jewelryImages/tangerineFlowerEarrings.jpg"},
-    
-    {"id": "29",
-    "name": "Clown choker",
-    "type": "choker",
-    "price": "100",
-    "style": "special",
-    "image": "/images/jewelryImages/clownChoker.jpg"},
-    
-    {"id": "30",
-    "name": "Melting Heart necklace",
-    "type": "necklace",
-    "price": "120",
-    "style": "girly",
-    "image": "/images/jewelryImages/meltingHeartNecklace.jpg"},
-    
-    {"id": "31",
-    "name": "Trans Pride choker",
-    "type": "choker",
-    "price": "100",
-    "style": "special",
-    "image": "/images/jewelryImages/transPrideChoker.jpg"},
-    
-    {"id": "32",
-    "name": "Sylveon necklace",
-    "type": "necklace",
-    "price": "120",
-    "style": "special",
-    "image": "/images/jewelryImages/sylveonNecklace.jpg"},
-    
-    {"id": "33",
-    "name": "New Moon earrings",
-    "type": "earrings",
-    "price": "50",
-    "style": "space",
-    "image": "/images/jewelryImages/newMoonEarrings.jpg"},
-    
-    {"id": "34",
-    "name": "Blood Moon earrings",
-    "type": "earrings",
-    "price": "50",
-    "style": "goth",
-    "image": "/images/jewelryImages/bloodMoonEarrings.jpg"},
-    
-    {"id": "35",
-    "name": "Moth Madness necklace",
-    "type": "necklace",
-    "price": "120",
-    "style": "goth",
-    "image": "/images/jewelryImages/mothMadnessNecklace.jpg"},
-    
-    {"id": "36",
-    "name": "Peach Blossom Matcha Blast necklace",
-    "type": "necklace",
-    "price": "120",
-    "style": "elegant",
-    "image": "/images/jewelryImages/peachBlossomMatchaBlastNecklace.jpg"},
-    
-    {"id": "37",
-    "name": "Strawberry Dream necklace",
-    "type": "necklace",
-    "price": "120",
-    "style": "cottagecore",
-    "image": "/images/jewelryImages/strawberryDreamNecklace.jpg"},
-    
-    {"id": "38",
-    "name": "Starlight Fairy necklace",
-    "type": "necklace",
-    "price": "120",
-    "style": "cottagecore",
-    "image": "/images/jewelryImages/starlightFairyNecklace.jpg"},
-    
-    {"id": "39",
-    "name": "Solsikkesnor choker",
-    "type": "choker",
-    "price": "100",
-    "style": "special",
-    "image": "/images/jewelryImages/solsikkesnorChoker.jpg"},
-    
-    {"id": "40",
-    "name": "Heart-core necklace",
-    "type": "necklace",
-    "price": "120",
-    "style": "girly",
-    "image": "/images/jewelryImages/heartCoreNecklace.jpg"},
-    
-    {"id": "41",
-    "name": "Bamse choker",
-    "type": "choker",
-    "price": "100",
-    "style": "special",
-    "image": "/images/jewelryImages/bamseChoker.jpg"},
-    
-    {"id": "42",
-    "name": "Lilac Ribbon choker",
-    "type": "choker",
-    "price": "100",
-    "style": "goth",
-    "image": "/images/jewelryImages/lilacRibbonChoker.jpg"},
-    
-    {"id": "43",
-    "name": "Vamp Dream choker",
-    "type": "choker",
-    "price": "100",
-    "style": "goth",
-    "image": "/images/jewelryImages/vampDreamChoker.jpg"},
-    
-    {"id": "44",
-    "name": "Acid Charcoal choker",
-    "type": "choker",
-    "price": "100",
-    "style": "goth",
-    "image": "/images/jewelryImages/acidCharcoalChoker.jpg"},
-    
-    {"id": "45",
-    "name": "Fulmoon Waves Choker",
-    "type": "choker",
-    "price": "100",
-    "style": "elegant",
-    "image": "/images/jewelryImages/fulmoonWavesChoker.jpg"}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ],
-    "users":
-    [
-    {"id": "1"},
-    {"username": "joe123"},
-    {"password": "joe123"},
-    {"fullname": "Joe Smith"},
-    {"email": "joesmail@gmail.com"},
-    {"address": "1234 Main St. Anytown, USA"}
-    ]
+  "jewelry": [
+    {
+      "id": "1",
+      "name": "Lilac Moonstar choker",
+      "type": "choker",
+      "price": "100",
+      "style": "space",
+      "image": "/images/jewelryImages/lilacMoonstarChoker.jpg"
+    },
+
+    {
+      "id": "2",
+      "name": "Pink Sakura choker",
+      "type": "choker",
+      "price": "100",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/pinkSakuraChoker.jpg"
+    },
+
+    {
+      "id": "3",
+      "name": "Navy Blue Star choker",
+      "type": "choker",
+      "price": "100",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/navyBlueStarChoker.jpg"
+    },
+
+    {
+      "id": "4",
+      "name": "Barbiecore choker",
+      "type": "choker",
+      "price": "100",
+      "style": "girly",
+      "image": "/images/jewelryImages/barbiecoreChoker.jpg"
+    },
+
+    {
+      "id": "5",
+      "name": "Pink and Green Froggy choker",
+      "type": "choker",
+      "price": "100",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/pinkAndGreenFroggyChoker.jpg"
+    },
+
+    {
+      "id": "6",
+      "name": "Royal Blue and Red choker",
+      "type": "choker",
+      "price": "100",
+      "style": "elegant",
+      "image": "/images/jewelryImages/royalBlueAndRedChoker.jpg"
+    },
+
+    {
+      "id": "7",
+      "name": "Holographic Space choker",
+      "type": "choker",
+      "price": "100",
+      "style": "space",
+      "image": "/images/jewelryImages/holographicSpaceChoker.jpg"
+    },
+
+    {
+      "id": "8",
+      "name": "Star Froggy choker",
+      "type": "choker",
+      "price": "100",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/starFroggyChoker.jpg"
+    },
+
+    {
+      "id": "9",
+      "name": "Blue Butterfly Forest choker",
+      "type": "choker",
+      "price": "100",
+      "style": "cottagecore",
+      "image": "/images/jewelryImages/blueButterflyForestChoker.jpg"
+    },
+
+    {
+      "id": "10",
+      "name": "Yellow Gem choker",
+      "type": "choker",
+      "price": "100",
+      "style": "elegant",
+      "image": "/images/jewelryImages/yellowGemChoker.jpg"
+    },
+
+    {
+      "id": "11",
+      "name": "Silver Galaxy choker",
+      "type": "choker",
+      "price": "100",
+      "style": "space",
+      "image": "/images/jewelryImages/silverGalaxyChoker.jpg"
+    },
+
+    {
+      "id": "12",
+      "name": "Pink Bell-n-Paw choker",
+      "type": "choker",
+      "price": "100",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/pinkBellNPawChoker.jpg"
+    },
+
+    {
+      "id": "13",
+      "name": "Lightning McQueen choker",
+      "type": "choker",
+      "price": "100",
+      "style": "special",
+      "image": "/images/jewelryImages/lightningMcQueenChoker.jpg"
+    },
+
+    {
+      "id": "14",
+      "name": "Hello Kitty choker",
+      "type": "choker",
+      "price": "100",
+      "style": "special",
+      "image": "/images/jewelryImages/helloKittyChoker.jpg"
+    },
+
+    {
+      "id": "15",
+      "name": "Black Moon hoker",
+      "type": "choker",
+      "price": "100",
+      "style": "goth",
+      "image": "/images/jewelryImages/blackMoonChoker.jpg"
+    },
+
+    {
+      "id": "16",
+      "name": " Sylveon choker",
+      "type": "choker",
+      "price": "100",
+      "style": "special",
+      "image": "/images/jewelryImages/sylveonChoker.jpg"
+    },
+
+    {
+      "id": "17",
+      "name": "Kaj choker",
+      "type": "choker",
+      "price": "100",
+      "style": "special",
+      "image": "/images/jewelryImages/kajChoker.jpg"
+    },
+
+    {
+      "id": "18",
+      "name": "Strawberry Cutiepie earrings",
+      "type": "earrings",
+      "price": "50",
+      "style": "cottagecore",
+      "image": "/images/jewelryImages/strawberryCutiepieEarrings.jpg"
+    },
+
+    {
+      "id": "19",
+      "name": "Peach Blossom headband",
+      "type": "headband",
+      "price": "100",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/peachBlossomHeadband.jpg"
+    },
+
+    {
+      "id": "20",
+      "name": "Magical Girl earrings",
+      "type": "earrings",
+      "price": "50",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/magicalGirlEarrings.jpg"
+    },
+
+    {
+      "id": "21",
+      "name": "Milk Choclate Biscuit bunny choker",
+      "type": "choker",
+      "price": "100",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/milkChocolateBiscuitBunnyChoker.jpg"
+    },
+
+    {
+      "id": "22",
+      "name": "Crow claw earrings",
+      "type": "earrings",
+      "price": "50",
+      "style": "goth",
+      "image": "/images/jewelryImages/crowClawEarrings.jpg"
+    },
+
+    {
+      "id": "23",
+      "name": "Straw-bunny earrings",
+      "type": "earrings",
+      "price": "50",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/strawBunnyEarrings.jpg"
+    },
+
+    {
+      "id": "24",
+      "name": "Plushy Friends choker",
+      "type": "choker",
+      "price": "100",
+      "style": "kawaii",
+      "image": "/images/jewelryImages/plushyFriendsChoker.jpg"
+    },
+
+    {
+      "id": "25",
+      "name": "Bimbo choker",
+      "type": "choker",
+      "price": "100",
+      "style": "girly",
+      "image": "/images/jewelryImages/bimboChoker.jpg"
+    },
+
+    {
+      "id": "26",
+      "name": "Archive choker",
+      "type": "choker",
+      "price": "100",
+      "style": "cottagecore",
+      "image": "/images/jewelryImages/archiveChoker.jpg"
+    },
+
+    {
+      "id": "27",
+      "name": "Golden milkyway necklace",
+      "type": "necklace",
+      "price": "120",
+      "style": "elegant",
+      "image": "/images/jewelryImages/goldenMilkywayNecklace.jpg"
+    },
+
+    {
+      "id": "28",
+      "name": "Tangerine Flower earrings",
+      "type": "earrings",
+      "price": "50",
+      "style": "cottagecore",
+      "image": "/images/jewelryImages/tangerineFlowerEarrings.jpg"
+    },
+
+    {
+      "id": "29",
+      "name": "Clown choker",
+      "type": "choker",
+      "price": "100",
+      "style": "special",
+      "image": "/images/jewelryImages/clownChoker.jpg"
+    },
+
+    {
+      "id": "30",
+      "name": "Melting Heart necklace",
+      "type": "necklace",
+      "price": "120",
+      "style": "girly",
+      "image": "/images/jewelryImages/meltingHeartNecklace.jpg"
+    },
+
+    {
+      "id": "31",
+      "name": "Trans Pride choker",
+      "type": "choker",
+      "price": "100",
+      "style": "special",
+      "image": "/images/jewelryImages/transPrideChoker.jpg"
+    },
+
+    {
+      "id": "32",
+      "name": "Sylveon necklace",
+      "type": "necklace",
+      "price": "120",
+      "style": "special",
+      "image": "/images/jewelryImages/sylveonNecklace.jpg"
+    },
+
+    {
+      "id": "33",
+      "name": "New Moon earrings",
+      "type": "earrings",
+      "price": "50",
+      "style": "space",
+      "image": "/images/jewelryImages/newMoonEarrings.jpg"
+    },
+
+    {
+      "id": "34",
+      "name": "Blood Moon earrings",
+      "type": "earrings",
+      "price": "50",
+      "style": "goth",
+      "image": "/images/jewelryImages/bloodMoonEarrings.jpg"
+    },
+
+    {
+      "id": "35",
+      "name": "Moth Madness necklace",
+      "type": "necklace",
+      "price": "120",
+      "style": "goth",
+      "image": "/images/jewelryImages/mothMadnessNecklace.jpg"
+    },
+
+    {
+      "id": "36",
+      "name": "Peach Blossom Matcha Blast necklace",
+      "type": "necklace",
+      "price": "120",
+      "style": "elegant",
+      "image": "/images/jewelryImages/peachBlossomMatchaBlastNecklace.jpg"
+    },
+
+    {
+      "id": "37",
+      "name": "Strawberry Dream necklace",
+      "type": "necklace",
+      "price": "120",
+      "style": "cottagecore",
+      "image": "/images/jewelryImages/strawberryDreamNecklace.jpg"
+    },
+
+    {
+      "id": "38",
+      "name": "Starlight Fairy necklace",
+      "type": "necklace",
+      "price": "120",
+      "style": "cottagecore",
+      "image": "/images/jewelryImages/starlightFairyNecklace.jpg"
+    },
+
+    {
+      "id": "39",
+      "name": "Solsikkesnor choker",
+      "type": "choker",
+      "price": "100",
+      "style": "special",
+      "image": "/images/jewelryImages/solsikkesnorChoker.jpg"
+    },
+
+    {
+      "id": "40",
+      "name": "Heart-core necklace",
+      "type": "necklace",
+      "price": "120",
+      "style": "girly",
+      "image": "/images/jewelryImages/heartCoreNecklace.jpg"
+    },
+
+    {
+      "id": "41",
+      "name": "Bamse choker",
+      "type": "choker",
+      "price": "100",
+      "style": "special",
+      "image": "/images/jewelryImages/bamseChoker.jpg"
+    },
+
+    {
+      "id": "42",
+      "name": "Lilac Ribbon choker",
+      "type": "choker",
+      "price": "100",
+      "style": "goth",
+      "image": "/images/jewelryImages/lilacRibbonChoker.jpg"
+    },
+
+    {
+      "id": "43",
+      "name": "Vamp Dream choker",
+      "type": "choker",
+      "price": "100",
+      "style": "goth",
+      "image": "/images/jewelryImages/vampDreamChoker.jpg"
+    },
+
+    {
+      "id": "44",
+      "name": "Acid Charcoal choker",
+      "type": "choker",
+      "price": "100",
+      "style": "goth",
+      "image": "/images/jewelryImages/acidCharcoalChoker.jpg"
+    },
+
+    {
+      "id": "45",
+      "name": "Fulmoon Waves Choker",
+      "type": "choker",
+      "price": "100",
+      "style": "elegant",
+      "image": "/images/jewelryImages/fulmoonWavesChoker.jpg"
     }
+  ],
+  "users": [
+    { "id": "1" },
+    { "username": "joe123" },
+    { "password": "joe123" },
+    { "fullname": "Joe Smith" },
+    { "email": "joesmail@gmail.com" },
+    { "address": "1234 Main St. Anytown, USA" }
+  ]
+}
