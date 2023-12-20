@@ -73,11 +73,13 @@ body {
 font-family: "Orbitron";
 background-color: #ff6699;
 border-radius: 10px;
+
  
 }
 .girly:hover{
   border-radius: 10px;
   color: #990033;
+  border: #990033 solid 2px;
 }
 
 .cottagecore{
@@ -85,10 +87,12 @@ border-radius: 10px;
   background-color: #2c5508;
   color: #fff5a9;
   border-radius: 10px;
+
 }
 .cottagecore:hover{
   border-radius: 10px;
   color: #990033;
+  border: #990033 solid 2px;
 }
 
 .kawaii{
@@ -100,6 +104,7 @@ border-radius: 10px;
 .kawaii:hover{
   border-radius: 10px;
   color: #990033;
+  border: #990033 solid 2px;
 }
 
 .space{
@@ -111,6 +116,7 @@ border-radius: 10px;
 .space:hover{
   border-radius: 10px;
   color: #990033;
+  border: #990033 solid 2px;
 }
 
 .goth{
@@ -123,17 +129,30 @@ border-radius: 10px;
 .goth:hover{
   border-radius: 10px;
   color: #990033;
+  border: #990033 solid 2px;
 }
 
 .elegant{
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(98, 0, 128);
-  color: yellow;
+  background-color: rgb(103, 131, 149);
+  color: rgb(255, 244, 210);
   border-radius: 10px;
 }
 .elegant:hover{
   border-radius: 10px;
   color: #990033;
+  border: #990033 solid 2px;
+}
+.special{
+  font-family: "Chewy";
+  background-color: rgb(100, 37, 120);
+  color: #f0ca6e;
+  border-radius: 10px;
+}
+.special:hover{
+  border-radius: 10px;
+  color: #990033;
+  border: #990033 solid 2px;
 }
 .shopby{
   font-family: "Sofia";

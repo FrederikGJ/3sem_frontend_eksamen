@@ -20,6 +20,8 @@ export function Menus() {
                         <MenuItem href='/space' className='space'> Space </MenuItem>
                         <div className='gapbetween'></div>
                         <MenuItem href='/elegant' className='elegant'> Elegant </MenuItem>
+                        <div className='gapbetween'></div>
+                        <MenuItem href='/special' className='special'> Special </MenuItem>
 
 
                     
