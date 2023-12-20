@@ -7,7 +7,8 @@ export function Menus() {
             <Sidebar>
                 <div className='menu'>
                     <Menu>
-                        
+                        <div className='gapbetween'></div>
+                        <MenuItem href='/viewall' className='smykker'> Alle smykker</MenuItem>
                             <div className='shopby'>Shop udfra æstetik</div>
                         <MenuItem href='/girly' className='girly'> Girly </MenuItem>
                         <div className='gapbetween'></div>
@@ -35,7 +36,7 @@ export function Menus() {
                         <MenuItem href='/bracelet' className='smykker'> Armbånd </MenuItem>
                         <div className='gapbetween'></div>
                         <MenuItem href='/hairband' className='smykker'> Hårbånd </MenuItem>
-
+                        <div className='gapbetween'></div>
 
                     </Menu>
                 </div>

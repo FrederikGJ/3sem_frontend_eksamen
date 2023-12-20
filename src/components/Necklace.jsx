@@ -1,54 +1,49 @@
-import React, { useState, useEffect } from 'react';
-import { Navibar } from './Navbar.jsx';
-import { Menus } from './Menu.jsx';
+import { useState, useEffect } from "react";
+import { Navibar } from "./Navbar.jsx";
+import { Menus } from "./Menu.jsx";
+import Card from "react-bootstrap/Card";
 
 export function Necklace() {
   return (
     <>
       <Navibar />
       <Menus />
-      <YourComponent />
+      <ComponentNecklace />
     </>
   );
 }
 
-const YourComponent = () => {
+function ComponentNecklace() {
   const [necklaces, setNecklaces] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      try {
-        const response = await fetch('http://localhost:3000/jewelry');
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
+      const response = await fetch("http://localhost:3000/jewelry");
 
-        const data = await response.json();
-        console.log("fetched data", data);
+      const data = await response.json();
+      console.log("fetched data:", data);
 
+      const necklaceItems = data.filter((item) => item.type === "necklace");
+      console.log("necklaceItems:", necklaceItems);
 
-        const necklaceItems = data.jewelry.filter(item => item.type === 'necklace');
-        console.log("necklaceItems", necklaceItems);
-        
-        setNecklaces(necklaceItems);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
+      setNecklaces(necklaceItems);
     };
-
     fetchData();
-  }, []); 
+  }, []);
 
   return (
     <div>
-      <h2>Necklaces</h2>
-      <ul>
-        {necklaces.map(necklace => (
-          <li key={necklace.id}>
-            {necklace.name}
-          </li>
-        ))}
-      </ul>
+      {necklaces.map((necklace) => (
+        <Card key={necklace.id}>
+          <Card.Img variant="top" src={necklace.image} alt={necklace.name} />
+          <Card.Body>
+            <Card.Title>{necklace.name}</Card.Title>
+            <Card.Text>
+              Pris: {necklace.price} kr. Stil: {necklace.style}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      ))}
     </div>
   );
-};
+}
