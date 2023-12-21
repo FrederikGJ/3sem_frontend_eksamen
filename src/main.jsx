@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Forside />} />
+      <Route path="/" element={<Forside />} />
         <Route path="/login" element={<Login />} />
         <Route path="/indkøbskurv" element={<Indkøbskurv />} />
         <Route path="/oversigt" element={<Oversigt />} />

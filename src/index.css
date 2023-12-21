@@ -174,3 +174,15 @@ border-radius: 10px;
   font-family: "Courgette";
 
 }
+.menudiv{
+  display: flex;
+}
+.maincontent{
+  display: flex;
+  min-width: none;
+  max-width: 800px;
+  justify-content: center;
+}
+maincontainer{
+  display: flex;
+}
