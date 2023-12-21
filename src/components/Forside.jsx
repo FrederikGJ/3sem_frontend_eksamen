@@ -8,8 +8,10 @@ export function Forside() {
   return (
     <>
       <Navibar />
+      <div className="workforfucksake">
       <Menus />
       <JewelryComponent />
+      </div>
     </>
   );
 }

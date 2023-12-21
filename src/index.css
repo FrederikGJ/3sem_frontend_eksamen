@@ -158,3 +158,12 @@ border-radius: 10px;
 .jewelrypicture{
   width: 100px;
 }
+.workforfucksake{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+
+}
+.penis{
+  padding-left: 200px;
+}
