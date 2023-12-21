@@ -7,11 +7,14 @@ export function Forside() {
   return (
     <>
       <Navibar />
-      <Menus />
-      <JewelryComponent />
+      <div className="layout-container">
+        <Menus />
+        <JewelryComponent />
+      </div>
     </>
   );
 }
+
 
 export function JewelryComponent() {
   const [jewelry, setJewelry] = useState([]);

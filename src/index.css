@@ -155,3 +155,8 @@ border-radius: 10px;
   font-family: "Courgette";
 
 }
+.layout-container {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
