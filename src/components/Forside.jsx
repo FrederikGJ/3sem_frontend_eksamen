@@ -10,8 +10,9 @@ export function Forside() {
       <Navibar />
       <div className="workforfucksake">
       <Menus />
+      <div className="penis">
       <JewelryComponent />
-      </div>
+      </div></div>
     </>
   );
 }
@@ -38,7 +39,8 @@ export function JewelryComponent() {
       <ul>
         {jewelry.map((item) => (
           <li key={item.id}>
-            {item.name} {item.price} <img src= {"src/" + item.image} alt="Picture of jewelry" className="jewelrypicture" />
+            <img src= {"src/" + item.image} alt="Picture of jewelry" className="jewelrypicture" />
+            {item.name} {item.price} 
           </li>
         ))}
       </ul>
