@@ -26,6 +26,7 @@ export function Login() {
     <>
       <div>
       <Navibar />
+      <div className="workforfucksake">
             <Menus />
         <h1>
           Login
@@ -45,7 +46,7 @@ export function Login() {
         <p>Log på for at kunne købe disse flotte smykker </p>)}
       </div>
         </h1>
-      </div>
+      </div></div>
     </>
   )
 }
