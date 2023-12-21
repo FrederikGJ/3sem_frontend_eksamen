@@ -160,3 +160,7 @@ border-radius: 10px;
   justify-content: start;
   align-items: flex-start;
 }
+
+.layout-container > :last-child {
+  padding-left: 20px; /* Justér værdien efter behov */
+}
