@@ -1,6 +1,7 @@
 dk\lyngby\dao\impl\HotelDao.class
 dk\lyngby\exception\ApiException.class
 dk\lyngby\config\Populate.class
+dk\lyngby\dao\impl\JewelryDAO.class
 dk\lyngby\model\Role.class
 dk\lyngby\controller\impl\HotelController.class
 dk\lyngby\controller\impl\AccessManagerController.class
@@ -21,14 +22,18 @@ dk\lyngby\security\SignVerifyToken.class
 dk\lyngby\controller\impl\ExceptionController.class
 dk\lyngby\dto\RoomDto.class
 dk\lyngby\controller\IController.class
+dk\lyngby\model\Jewelry.class
 dk\lyngby\routes\HotelRoute.class
 dk\lyngby\dao\IDao.class
 dk\lyngby\model\Room.class
+dk\lyngby\controller\impl\JewelryController.class
+dk\lyngby\dto\JewelryDTO.class
 dk\lyngby\model\Hotel.class
 dk\lyngby\routes\RoomRoute.class
 dk\lyngby\exception\AuthorizationException.class
 dk\lyngby\config\ApplicationConfig.class
 dk\lyngby\controller\impl\UserController.class
 dk\lyngby\dao\impl\RoomDao.class
+dk\lyngby\routes\JewelryRoute.class
 dk\lyngby\model\User.class
 dk\lyngby\model\Room$RoomType.class
