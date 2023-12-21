@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { getAllJewelry } from "../facades/JewelryFacade.js";
 
 export function Forside() {
+  
   return (
     <>
       <Navibar />
@@ -35,7 +36,7 @@ export function JewelryComponent() {
       <ul>
         {jewelry.map((item) => (
           <li key={item.id}>
-            {item.name} {item.price}
+            {item.name} {item.price} <img src= {"src/" + item.image} alt="Picture of jewelry" className="jewelrypicture" />
           </li>
         ))}
       </ul>
